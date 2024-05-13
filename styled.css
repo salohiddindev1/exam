@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 120px;
+}
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-center {
+  display: flex;
+  gap: 30px;
+}
+
+.header-center a {
+  text-decoration: none;
+  color: black;
+}
+
+.header-right button:hover {
+  border-radius: 2%;
+  border: 1px solid rgb(243, 8, 8);
+  color: red;
+}
+
+nav a:hover {
+  color: red;
+}
+
+.hero {
+  background-image: url(./img/photo_2024-05-10_10-47-24.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+.hero-left {
+  padding: 200px 100px;
+}
+
+.hero-lefth2 {
+  font-family: Open Sans Condensed;
+  font-size: 36px;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 43.2px;
+  text-align: left;
+}
+
+.hero-left button:hover {
+  color: red;
+  border: 1px solid red;
+}
+
+.center {
+  text-align: center;
+  font-size: 36px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: start;
+}
+.wrapper-2 {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+  flex-direction: row-reverse;
+  padding: 30px;
+}
+
+.center-img1 {
+  position: relative;
+  top: 150px;
+}
+
+.center-img {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.form {
+  background-color: aqua;
+  padding-bottom: 50px;
+}
+
+.form-wrapper {
+  padding-top: 220px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.form-left {
+  width: 50%;
+}
+
+iframe {
+  border-radius: 20px;
+}
+
+.form-right {
+  border-radius: 20px;
+  padding: 30px;
+  background-color: white;
+  width: 50%;
+  height: 331px;
+}
+
+.form-right form {
+  display: flex;
+  justify-content: center;
+  gap: 1px;
+  flex-direction: column;
+}
+
+input {
+  width: 100%;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.btn {
+  background-color: #0eb;
+  color: white;
+}
+
+footer {
+  background-color: yellow;
+}
+
+a {
+  color: white;
+}
+
+.hero-left h2 {
+  padding: 30px;
+}
+.hero-left button {
+  margin: 30px;
+}
